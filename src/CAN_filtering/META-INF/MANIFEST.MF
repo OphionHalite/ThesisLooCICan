@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CanFilter
+Bundle-SymbolicName: CanFilter
+Bundle-Version: 1.0.7
+Bundle-Activator: can_filtering.CanFilter
+Require-Bundle: LoociOsgiServices;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ClassPath: .
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CanBackend
+Bundle-SymbolicName: CanBackend
+Bundle-Version: 1.1.7
+Bundle-Activator: canbackend.CanBackend
+Require-Bundle: LoociOsgiServices;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Import-Package: javax.swing, org.osgi.framework;version="1.3.0"
+Bundle-ClassPath: .
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
